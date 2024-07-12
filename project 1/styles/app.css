@@ -320,6 +320,54 @@ body {
 .header__img {
   width: 100%;
 }
+
+/* Start main */
+
+.main {
+}
+.main-works {
+  margin-top: 100px;
+}
+.main-text-one__top {
+  text-align: center;
+  font-family: "TTNorms";
+  color: #6c7890;
+  font-size: 15px;
+  margin: 0;
+}
+.main-text-two__top {
+  text-align: center;
+  color: #081d43;
+  font-size: 30px;
+  font-weight: normal;
+  margin-top: 0.8rem;
+}
+
+.main-one-mid__content {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.mid__content {
+  max-width: 16rem;
+}
+.mid-textOne__content {
+  color: #081d43;
+  font-size: 18px;
+}
+.mid-textTwo__content {
+  color: #6c7890;
+  line-height: 2rem;
+}
+.main-one__buttom {
+  margin: 2rem auto;
+  max-width: 30rem;
+}
+.main-one__img {
+  width: 100%;
+}
+
 /* Project Responsive */
 
 @media only screen and (max-width: 1200px) {
