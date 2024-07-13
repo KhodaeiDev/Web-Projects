@@ -9,4 +9,4 @@ Welcome to the **Web PROJECTS**! 🎉 This repository contains over +20 🔥 Web
 
 |  No.| Project         | Source Code                                                          | Live Preview         |
 | :-: | ----------------|----------------------------------------------------------------------|-----------------------------------------------------
-| 01  | Personal Website     | [View Code](https://github.com/KhodaeiDev/Web-Projects/tree/master/project%201)      | [Preview Site]()
+| 01  | Personal Website     | [View Code](https://github.com/KhodaeiDev/Web-Projects/tree/master/project%201)      | [Preview Site](https://khodaeidev.github.io/Web-Projects/personal-site/)
