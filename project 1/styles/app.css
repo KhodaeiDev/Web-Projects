@@ -328,14 +328,15 @@ body {
 .main-works {
   margin-top: 100px;
 }
-.main-text-one__top {
+.main-title-one {
   text-align: center;
   font-family: "TTNorms";
   color: #6c7890;
   font-size: 15px;
   margin: 0;
+  text-transform: uppercase;
 }
-.main-text-two__top {
+.main-title-two {
   text-align: center;
   color: #081d43;
   font-size: 30px;
@@ -452,6 +453,27 @@ body {
 .comments-logo__img {
   margin: 1rem;
   display: block;
+}
+
+/* portfolio */
+.portfolio {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.portfolio__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.portfolio__item {
+  flex-basis: 22rem;
+  margin-top: 1.5rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.portfolio__img {
+  width: 100%;
 }
 
 /* Project Responsive */
