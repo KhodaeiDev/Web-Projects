@@ -236,6 +236,12 @@ body {
   align-items: center;
 }
 
+.header__icon {
+  font-size: 1.8rem;
+  display: none;
+  cursor: pointer;
+}
+
 .logo__nav {
   height: 1.5rem;
 }
@@ -543,11 +549,20 @@ body {
   .container {
     max-width: 720px;
   }
+  .nav__link {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 768px) {
   .container {
     max-width: 540px;
+  }
+  .header__icon {
+    display: block;
+  }
+  .nav__list {
+    display: none;
   }
 }
 
