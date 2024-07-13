@@ -1,4 +1,4 @@
-# In Sevelopment Stage ... ✌️❤️
+# In Development Stage ... ✌️❤️
 
 
 # Web PROJECTS 🚀
