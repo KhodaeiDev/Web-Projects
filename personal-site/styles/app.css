@@ -585,6 +585,13 @@ body {
   .newsletter__text {
     flex-basis: 25rem;
   }
+  .left__content {
+    text-align: center;
+  }
+  .header-bottom__btn {
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media only screen and (max-width: 768px) {
