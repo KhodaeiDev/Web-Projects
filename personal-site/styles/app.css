@@ -555,6 +555,19 @@ body {
   .nav__link {
     display: none;
   }
+  .header__bottom {
+    flex-direction: column-reverse;
+    margin-top: 3rem;
+  }
+  .left__content {
+    flex-basis: 100%;
+  }
+  .left-content__wrapper {
+    max-width: 100%;
+  }
+  .header-bottom__btn {
+    flex-wrap: wrap;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -579,6 +592,9 @@ body {
   .list {
     margin-bottom: 2.5rem;
     font-size: 1.2rem;
+  }
+  .list__item {
+    color: #fff;
   }
 }
 
