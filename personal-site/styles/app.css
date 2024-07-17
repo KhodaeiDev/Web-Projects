@@ -244,10 +244,13 @@ body {
 
 .logo__nav {
   height: 1.5rem;
+  margin-right: 4rem;
 }
 
 .nav__list {
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .list {
@@ -562,7 +565,20 @@ body {
     display: block;
   }
   .nav__list {
-    display: none;
+    /* display: none; */
+    position: fixed;
+    top: 0;
+    left: -256px;
+    bottom: 0;
+    background-color: #3f64df;
+    flex-direction: column;
+    width: 16rem;
+    padding: 2rem 1rem;
+    transition: 0.4s all;
+  }
+  .list {
+    margin-bottom: 2.5rem;
+    font-size: 1.2rem;
   }
 }
 
