@@ -353,6 +353,7 @@ body {
   text-align: center;
   justify-content: space-around;
   margin-top: 30px;
+  flex-wrap: wrap;
 }
 .mid__content {
   max-width: 16rem;
@@ -596,10 +597,15 @@ body {
   .list__item {
     color: #fff;
   }
+  .mid__content {
+    max-width: 14rem;
+  }
 }
 
 @media only screen and (max-width: 576px) {
   .container {
     max-width: 100%;
+  }
+  .mid__content {
   }
 }
