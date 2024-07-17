@@ -516,6 +516,7 @@ body {
   border: none;
   outline: none;
   padding: 0.3rem 0.3rem 0.3rem 1.5rem;
+  width: 100%;
 }
 .newsletter__btn {
   border: none;
