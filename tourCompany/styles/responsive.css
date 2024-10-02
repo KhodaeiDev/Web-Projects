@@ -1,0 +1,121 @@
+@media (max-width: 380px) {
+    .header-content__title {
+        font-size: 4rem;
+    }
+    .destinations__title{
+        font-size: 2.4rem;
+    }
+    .newsletter__title{
+        max-width: 16rem;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer__right{
+        justify-content: center;
+    }
+    .footer-list{
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+    .nav__btn, .nav-menu {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+    }
+    .newsletter{
+        flex-direction: row;
+        text-align: left;
+        align-items: center;
+    }
+    .newsletter__content{
+        flex-basis: 60%;
+        padding-right: 2rem;
+    }
+    .newsletter__banner{
+        flex-basis: 40%;
+    }
+    .newsletter::before{
+        width: auto;
+        height: auto;
+        top: -5rem;
+        left: -40rem;
+        background-size: auto;
+        background-position: center left;
+    }
+}
+
+@media (min-width: 992px) {
+    .nav__links {
+        display: block;
+    }
+    .header-content__caption {
+        max-width: 50rem;
+    }
+    .newsletter__content{
+        padding-right: 4rem;
+    }
+    .newsletter__title{
+        margin-bottom: 0;
+    }
+
+    .footer-app{
+        display: block;
+    }
+    .footer-app--mobile{
+        display: none;
+    }
+    .footer__wrapper{
+        display: flex;
+    }
+    .footer__left{
+        max-width: 50rem;
+    }
+    .footer__scroll{
+        left: auto;
+    }
+    .newsletter::before{
+        top: -10rem;
+        left: -30rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .newsletter{
+        justify-content: space-between;
+    }
+    .newsletter__content{
+        flex-basis: auto;
+        width: 60rem;
+    }
+    .newsletter__banner{
+        flex-basis: auto;
+        width: 42rem;
+    }
+    .footer__wrapper{
+        justify-content: space-between;
+    }
+    .footer-list{
+        margin-bottom: 0;
+        margin-left: 2rem;
+    }
+    .newsletter::before{
+        top: -15rem;
+        left: -15rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    .newsletter{
+        padding: 3rem 6rem;
+    }
+}
