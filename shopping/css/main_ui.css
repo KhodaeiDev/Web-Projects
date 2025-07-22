@@ -1,0 +1,133 @@
+.btn {
+  border-width: 2px;
+  font-weight: 400;
+  font-size: 0.8571em;
+  line-height: 1.35em;
+  margin: 5px 1px;
+  border: none;
+  border-radius: 0.1875rem;
+  padding: 11px 22px;
+  cursor: pointer;
+  background-color: #888;
+  color: #ffffff;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn:active:focus,
+.btn:active:hover {
+  background-color: #979797;
+  color: #ffffff;
+  box-shadow: none;
+}
+
+.btn:hover {
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.17);
+}
+
+.btn:disabled,
+.btn:disabled:hover,
+.btn:disabled:focus,
+.btn:disabled:active {
+  background-color: #888;
+  border-color: #888;
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  outline: 0 !important;
+}
+
+.btn:active {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: 0 !important;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+/*           badges             */
+
+input {
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+a {
+  color: #f96332;
+}
+
+a:hover,
+a:focus {
+  color: #f96332;
+}
+
+h3 {
+  font-size: 2em;
+  margin-bottom: 30px;
+  line-height: 1.4em;
+}
+
+p {
+  line-height: 1.61em;
+}
+
+body {
+  color: #2c2c2c;
+  font-size: 14px;
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Animations */
+
+img {
+  max-width: 100%;
+  border-radius: 1px;
+}
+
+/* --------------------------------
+
+Nucleo Outline Web Font - nucleoapp.com/
+License - nucleoapp.com/license/
+Created using IcoMoon - icomoon.io
+
+-------------------------------- */
+
+@font-face {
+  font-family: "Nucleo Outline";
+  src: url("../fonts/nucleo-outline.eot");
+  src: url("../fonts/nucleo-outline.eot") format("embedded-opentype"),
+    url("../fonts/nucleo-outline.woff2") format("woff2"),
+    url("../fonts/nucleo-outline.woff") format("woff"),
+    url("../fonts/nucleo-outline.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*------------------------
+	base class definition
+-------------------------*/
+
+@media screen and (max-width: 991px) {
+  .sidebar-collapse .wrapper {
+    -webkit-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -moz-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -o-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -ms-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+  }
+}
+
+@media screen and (min-width: 992px) {
+}
